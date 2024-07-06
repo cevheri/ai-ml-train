@@ -1,0 +1,12 @@
+{
+  "frontend": {
+    "registry": "ghcr.io",
+    "image": "ghcr.io/ykcsoft/recruiter-web",
+    "tag": "v1.3.58"
+  },
+  "backend": {
+    "registry": "ghcr.io",
+    "image": "ghcr.io/ykcsoft/recruiter-api",
+    "tag": "v1.3.80"
+  }
+}
