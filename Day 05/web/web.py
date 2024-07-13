@@ -36,7 +36,6 @@ def signup():
 
 @app.route('/add', methods=['POST'])
 def add():
-
     name = request.form['name']
     email = request.form['email']
     password = request.form['password']
@@ -48,7 +47,12 @@ def add():
     return redirect(url_for('index'))
 
 
-@app.route('/users')
+@app.route('/userlist')
+def userlist():
+    return render_template('userlist.html')
+
+
+@app.route('/users', methods=['GET'])
 def users():
     conn = sql.connect('database.db')
     cur = conn.cursor()
@@ -66,7 +70,6 @@ def delete():
     cur.execute('DELETE FROM user_table WHERE id = ?', (data['id'],))
     conn.commit()
     return redirect(url_for('index'))
-
 
 
 if __name__ == '__main__':
