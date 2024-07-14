@@ -1,4 +1,4 @@
-# AI course 2024
+# Artificial Intelligence - AI crash course
 
 ## Introduction
 This is the repository for the AI course,
