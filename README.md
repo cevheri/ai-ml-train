@@ -8,10 +8,29 @@ Day by day hands-on exercises, projects, and assignments will be added to this r
 * [Anaconda](https://www.anaconda.com/products/distribution)
 * [PyCharm](https://www.jetbrains.com/pycharm/download/)
 * [Git](https://git-scm.com/downloads)
-* [GitHub](https://github.com)
-* [Python](https://www.python.org/downloads/) (Anaconda includes Python)
-* [Jupyter Notebook](https://jupyter.org/install) (Anaconda includes Jupyter Notebook)
+* [GitHub Account](https://github.com)
+* [Python](https://www.python.org/downloads/)
+* [Jupyter Notebook](https://jupyter.org/install)
 * [Visual Studio Code](https://code.visualstudio.com/download)
+* [Kaggle Account](https://www.kaggle.com)
+* [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
+* [Tableau Public](https://public.tableau.com/en-us/s/download)
+* [Hugging Face](https://huggingface.co/)
+* [TensorFlow](https://www.tensorflow.org/install)
+* [IBM Quantum Experience](https://quantum.ibm.com)
+* [Qiskit](https://qiskit.org/documentation/install.html)
+* [ChatGPT](https://chat.openai.com/)
+* [Poe](https://poe.ai/)
+* [DeepAI](https://deepai.org/)
+* Open Data:
+  * [Kaggle Datasets](https://www.kaggle.com/datasets)
+  * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+  * [Google Dataset Search](https://datasetsearch.research.google.com/)
+  * [Data.gov](https://www.data.gov/)
+  * [Data.gov.uk](https://data.gov.uk/)
+  * [IBB Open Data](https://data.ibb.gov.tr/)
+  * [TUBITAK Open Data](https://data.tubitak.gov.tr/)
+  * [Nasa Open Data](https://data.nasa.gov/)
 
 
 ## Course Overview
@@ -59,14 +78,14 @@ Day by day hands-on exercises, projects, and assignments will be added to this r
   * 3D computer vision and depth estimation
   * Social Network Analysis, page rank
   * Graph Theory
-  * Automated computer vision
-  * Automated machine learning
-  * Reinforcement Learning
-  * Geographic Information Systems
-  * Quantum Machine Learning
-  * Transfer Learning and Transformers
-  * Large Language Models
-  * ML Ops - Machine Learning Operations
+* Automated computer vision
+* Automated machine learning
+* Reinforcement Learning
+* Geographic Information Systems
+* Quantum Machine Learning
+* Transfer Learning and Transformers
+* Large Language Models
+* ML Ops - Machine Learning Operations
 
 
 
