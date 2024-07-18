@@ -22,10 +22,10 @@ def main():
     response = requests.post(MEDIUM_API_URL, headers=headers, json=data)
 
     if response.status_code == 201:
-        print("Yazı başarıyla yayınlandı!")
+        print("Article published successfully!")
     else:
-        print(f"Yayınlama hatası: {response.status_code}")
-        print(f"Yanıt içeriği: {response.json()}")
+        print(f"Error: {response.status_code}")
+        print(f"Error content: {response.json()}")
 
 
 if __name__ == "__main__":
