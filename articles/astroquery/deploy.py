@@ -1,10 +1,11 @@
 import requests
 
-MEDIUM_USER_ID = "xxx"
+MEDIUM_USER_ID = "cevheri"
 MEDIUM_API_URL = f"https://api.medium.com/v1/users/{MEDIUM_USER_ID}/posts"
-MEDIUM_TOKEN = "xxx"
+MEDIUM_TOKEN = "2cd0db9592306382da5142893dfa85f0eb4260b88d70b22d37728b9a12a1521b9"
 TITLE = "Gaia dataset and queries with ADQL (Astronomical Data Query Language)"
 FILE_NAME = "ADQL.ipynb"
+
 
 def main():
     headers = {
