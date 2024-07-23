@@ -16,7 +16,7 @@ def main():
     data = {
         "title": "Astronomical Data Analysis with Python Using Astropy and Astroquery",
         "contentFormat": "markdown",
-        "content": open("astropy/intro-to-astro.md", "r").read()
+        "content": open("intro-to-astro.md", "r").read()
     }
 
     response = requests.post(MEDIUM_API_URL, headers=headers, json=data)
