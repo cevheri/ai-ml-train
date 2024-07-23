@@ -1,11 +1,12 @@
 import requests
 
+MEDIUM_USER_ID = "xxx"
+MEDIUM_API_URL = f"https://api.medium.com/v1/users/{MEDIUM_USER_ID}/posts"
+MEDIUM_TOKEN = "xxx"
+TITLE = "Gaia dataset and queries with ADQL (Astronomical Data Query Language)"
+FILE_NAME = "ADQL.ipynb"
 
 def main():
-    MEDIUM_USER_ID = "xxx"
-    MEDIUM_API_URL = f"https://api.medium.com/v1/users/{MEDIUM_USER_ID}/posts"
-    MEDIUM_TOKEN = "xxx"
-
     headers = {
         "Authorization": f"Bearer {MEDIUM_TOKEN}",
         "Content-Type": "application/json",
@@ -14,9 +15,9 @@ def main():
     }
 
     data = {
-        "title": "Astronomical Data Analysis with Python Using Astropy and Astroquery",
+        "title": TITLE,
         "contentFormat": "markdown",
-        "content": open("intro-to-astro.md", "r").read()
+        "content": open(FILE_NAME, "r").read()
     }
 
     response = requests.post(MEDIUM_API_URL, headers=headers, json=data)
