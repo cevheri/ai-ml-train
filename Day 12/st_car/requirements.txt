@@ -1,5 +1,7 @@
-streamlit
+
 scikit-learn
 pandas
 numpy
-plotly
+plotly==5.23.0
+streamlit==1.37.0
+xlrd==2.0.1
