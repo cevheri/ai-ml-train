@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Predict Salary Machine Learning Model</title>
+</head>
+
+<body>
+
+<h1>Predict Salary Machine Learning Model</h1>
+<form action="/predict" method="post">
+    <label for="experience">Enter Experience:</label>
+    <input type="text" id="experience" name="experience" required><br><br>
+    <label for="exam_score">Enter Exam Score:</label>
+    <input type="text" id="exam_score" name="exam_score" required><br><br>
+    <label for="interview_score">Enter Interview Score:</label>
+    <input type="text" id="interview_score" name="interview_score" required><br><br>
+    <input type="submit" value="Submit">
+    <button type="reset">Reset</button>
+
+    <br><br>
+    <h2>Salary Prediction:</h2>
+    <p>{{ prediction_text }}</p>
+</form>
+
+</body>
+
+</html>
